@@ -33,6 +33,7 @@ redo log 是 InnoDB引擎所特有的，所以我们如果再使用InnoDB引擎�
 InnoDB正因为有了 redo log(重做日志)，才有了 crash-safe 的能力（即使mysql服务宕机，也不会丢失数据的能力）
 ```
 
+<br/>
 
 ## binlog 模块
 > binlog 是server层自己的日志，而redo log 是引擎层特有的日志
